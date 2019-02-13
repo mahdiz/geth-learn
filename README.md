@@ -1,5 +1,8 @@
 # Learn Go Ethereum Client
 
+## Initialize a chain
+``geth init genesis.json --datadir ./eth_chain/mychain``
+
 ## Run a miner node
 ``sudo geth --rpc --rpcaddr 127.0.0.1 --rpcport 8546``
 
